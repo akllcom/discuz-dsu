@@ -63,15 +63,15 @@ function sendStatus($text , $desp = '' , $key = '')
 }
 
 //签到代码
-$user = ''; //用户名
-$pwd = ''; //密码
-$baseUrl = ''; //论坛首页地址 结尾带上”/”
-$key = ''; // 方糖key
+$user = '阿坤来乐'; //用户名
+$pwd = 'Qwexzk123'; //密码
+$baseUrl = 'https://zodgame.xyz/'; //论坛首页地址 结尾带上”/”
+$key = 'SCU140232Ta67f26cb3ec14e0753f11c33d30bc88a5fe98cfb4e9cc'; // 方糖key
 
 //心情：开心，难过，郁闷，无聊，怒，擦汗，奋斗，慵懒，衰
 //{"kx","ng","ym","wl","nu","ch","fd","yl","shuai"};
-$qdxq = 'kx'; //签到时使用的心情
-$todaysay = '开心~~~'; //想说的话
+$qdxq = 'nu'; //签到时使用的心情
+$todaysay = '无聊~~~'; //想说的话
 
 //账号登录地址
 $loginPageUrl = $baseUrl . 'member.php?mod=logging&action=login';
